@@ -2,13 +2,13 @@
 /// <reference types="vite/client" />
 
 import { defineConfig } from "vite";
+import eslint from "vite-plugin-eslint";
 import react from "@vitejs/plugin-react-swc";
-import graphql from '@rollup/plugin-graphql';
-
+import graphql from "@rollup/plugin-graphql";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), graphql()],
+  plugins: [react(), eslint(), graphql()],
   test: {
     globals: true,
     environment: "jsdom",

@@ -29,6 +29,8 @@ export const GetPhotos = (params: GetPhotosParams) => {
   return { result, loading };
 };
 
-export default {
+const PhotoListActions = {
   GetPhotos,
 };
+
+export default PhotoListActions;
