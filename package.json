@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint --ext .js,.ts,.tsx src",
+    "lint": "eslint --ext .gql,.js,.ts,.tsx src",
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },
@@ -32,6 +32,7 @@
     "autoprefixer": "^10.4.13",
     "eslint": "^8.35.0",
     "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-graphql": "^4.0.0",
     "jsdom": "^21.1.0",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.7",
