@@ -3,12 +3,14 @@
 A photo list consuming GraphQL service.
 
 Built with:
+
 - [Vite] - React + Typescript
 - [Ant Design]
+- [TailwindCSS]
 
 ## Demo
-- `https://react-ts-simple-app-chi.vercel.app/`
 
+- https://react-ts-simple-app-chi.vercel.app/
 
 ## Development
 
@@ -17,7 +19,9 @@ Built with:
 - Run `npm run dev` or `yarn dev` (if you are using `Yarn`).
 
 ## Building
+
 - Run `npm run build` or `yarn build`
 
-[Vite]: https://vitejs.org/
-[Ant Design]: https://ant.design/
+[vite]: https://vitejs.org/
+[ant design]: https://ant.design/
+[tailwindcss]: https://tailwindcss.com/
